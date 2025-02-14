@@ -77,4 +77,3 @@ If I had more time to improve this backend, the following enhancements could be 
 
 Developed with ❤️ for [Karen Cardenas]
 
-```
