@@ -9,12 +9,6 @@ This project is a RESTful API developed with **NestJS**, designed to manage a co
 - **Class-validator** - Decorator-based validation for plain JavaScript objects.
 - **Jest** - A delightful JavaScript Testing Framework with a focus on simplicity.
 
-## Features
-
-✅ Add superheroes with strict validations (name, superpower, humility score between 1 and 10).
-✅ Get a list of superheroes sorted by humility score (descending).
-✅ Robust error handling with `BadRequestException` and `NotFoundException`.
-✅ Unit tests for all major functionalities.
 
 ## Installation
 
@@ -26,25 +20,23 @@ This project is a RESTful API developed with **NestJS**, designed to manage a co
 
 2.  Navigate to the project directory:
 
-    ```bash
+```bash
     cd humble-hero-api
-    ```
+```
 
-3. Install dependencies
-
-````bash
-    npm install
-    ```
-
-
-4. To run the project in development mode:
+3.  Install dependencies:
 
 ```bash
-npm run start:dev
-````
+    npm install
+```
+
+4.  To run the project in development mode:
+
+```bash
+    npm run start:dev
+```
 
 ## 🛠 API Usage
-
 
 ```http
 POST /superheroes
@@ -84,3 +76,5 @@ If I had more time to improve this backend, the following enhancements could be 
 - **Caching:** Implement caching mechanisms to improve response times for frequently accessed data.
 
 Developed with ❤️ for [Karen Cardenas]
+
+```
